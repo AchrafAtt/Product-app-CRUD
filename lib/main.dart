@@ -27,7 +27,8 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Produits List'), // Title of the AppBar
+        title: const Text('Produits List'),
+        backgroundColor: Colors .amber,
       ),
       body:  ProduitsList(), // Your ProduitBox widget goes here
     );
